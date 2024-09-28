@@ -8,7 +8,8 @@ const Modal = ({ toggleModal }) => {
           ❎
         </button>
         <div className={css.modal_img}>
-          <img src="../../../public/vlad.jpg" alt="" />
+          <img src="/vlad.jpg" alt="" />
+
           <p>Плати за курс!</p>
           <button className={css.btn_pay}>Жду бабки</button>
         </div>
